@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------
+## Client Logos
+--------------------------------------------------------------*/
+.logos-carousel .owl-stage {
+    align-items: center;
+    display: flex;
+  }
+  .logos-carousel .owl-item {
+    text-align: center;
+  }
+  .logos-carousel .owl-item figure {
+    line-height: inherit;
+  }
+  .logos-carousel .owl-item img {
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+  }
+  .logos-carousel .owl-nav button.owl-next,
+  .logos-carousel .owl-nav button.owl-prev {
+    background: transparent;
+    color: #1a1b1e;
+    font-size: 21px;
+  }
+  .logos-carousel .owl-nav button.owl-next {
+    right: -60px;
+  }
+  .logos-carousel .owl-nav button.owl-prev {
+    left: -60px;
+  }
